@@ -1,0 +1,36 @@
+{
+  "name": "hots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/assets/js/src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-browserify": "^0.5.1",
+    "gulp-compass": "*",
+    "gulp-concat": "*",
+    "gulp-file-include": "^0.13.7",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-ruby-sass": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp-wrap": "*",
+    "livereload": "*",
+    "tiny-lr": "*"
+  },
+  "dependencies": {
+    "browserify": "^13.0.0",
+    "contentful": "^2.1.2",
+    "underscore": "^1.8.3",
+    "uniq": "^1.0.1"
+  }
+}

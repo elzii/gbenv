@@ -1,0 +1,361 @@
+/**
+ * Body / Defaults
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background-color: #fff;
+  margin-bottom: 60px;
+  /*background-color: #f9f9f9;*/
+}
+  body.shows--grid { background-color: #333; }
+  body.shows--list { background-color: #fff; }
+
+
+
+
+
+
+
+
+
+
+/**
+ * Typography
+ */
+h3 { font-size: 21px; }
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Nav
+ */
+#nav--actions {
+  padding: 8px 15px 0 0;
+}
+
+  .navbar-brand {
+    padding: 10px 15px;
+    font-size: 18px;
+  }
+    .navbar-brand span {
+      display:inline-block;
+      position: relative;
+      margin-left: 5px;
+      top: 1px;
+    }
+
+  .navbar-brand__logo {
+    max-height:100%;
+    width: auto;
+  }
+
+  .navbar-logo-icon {
+    position: relative;
+    display:inline-block;
+    background-image: url('../images/favicon.png');
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 22px;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    float: left;
+    margin-right: 8px;
+    top: -3px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Views / Router
+ */
+.view {
+  /*display: none;*/
+  padding: 75px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Helpers
+ */
+.list-blank {
+  list-style-type: none;
+  margin: 10px 0;
+  padding:0;
+}
+.list-blank li {
+  margin:0 0 7px 0;
+}
+
+.pre-scroll {
+  max-height:300px;
+  overflow:scroll;
+}
+.clearfix:after {
+  display:table;
+  clear:both;
+  height:0;
+  width:0;
+  content:'';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Flexbox
+ */
+.flex-columns {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+  .flex-column {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .flex-column--half {
+    width:49%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Syntax Highlighting
+ */
+pre { background: #272822; max-height: 320px; color: white; }
+.string { color: #e6db74; }
+.number { color: #ae81ff; }
+.boolean { color: #8362be; }
+.null { color: magenta; }
+.key { color: #f92772; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Bootstrap Overrides
+ */
+.navbar {
+  margin:0;
+}
+.row-padded { margin-bottom: 30px; }
+.m0 { margin:0; }
+.small-right {
+  float:right;
+  padding-top: 5px;
+}
+.anchor-block {
+  display:block;
+  padding-top: 5px;
+}
+.label-large {
+  font-size:12px;
+}
+.label-icon {
+  /*font-size:10px;*/
+}
+.label .glyphicon {
+  position: relative;
+  top: 2px;
+}
+.text-left { text-align: left !important; }
+
+.col-content {
+  padding: 15px;
+  min-height: 80px;
+}
+
+.col-inner {
+  border: 1px solid #eee;
+  width:100%;
+  margin-bottom: 15px;
+}
+.col-header {
+  background-color:#fbfbfb;
+  padding:15px;
+  border-bottom: 1px solid #eee;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+  .col-subheader {
+    background-color:#f9f9f9;
+    /*padding:10px 15px 10px 14px;*/
+    border-bottom: 1px solid #eee;
+    /*font-size: 24px;*/
+    font-weight: 500;
+  }
+
+    .col-subheader__left {
+      /*float: left;*/
+    }
+    .col-subheader__right {
+      float: right;
+      /*padding: 10px 15px;*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Font Awesome 
+ */
+.fa-lg {
+  font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Debug
+ */
+*[debug] {
+  display:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Buttons
+ */
+.btn.btn--full {
+  width: 100%;
+  border-radius:0px;
+  box-shadow:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
